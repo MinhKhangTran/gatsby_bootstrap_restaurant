@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="white" expand="lg">
       <Container>
         <Link to="/" className="navbar-brand text-danger">
           미당

@@ -8,9 +8,9 @@ const Hero = () => {
       <Container>
         <div className="wrapper position-relative border">
           <StaticImage src="../images/hero.png" className="" alt="hero_image" />
-          <div className="text_wrapper position-absolute">
+          <div className="text_wrapper position-absolute text-center">
             <h1 className="text-white display-1">Restaurant</h1>
-            <h2 className="text-white display-2">Koreanische Küche</h2>
+            <p className="text-white display-2">Koreanische Küche</p>
           </div>
         </div>
       </Container>
