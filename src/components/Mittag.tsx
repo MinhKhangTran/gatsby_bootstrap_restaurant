@@ -35,7 +35,7 @@ const Mittag = () => {
 };
 
 export const mittagsmenu_query = graphql`
-  {
+  query Mittag{
     allGraphCmsMittagsmenu(filter: { featured: { eq: true } }) {
       nodes {
         id

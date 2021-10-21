@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function SEO({ description, lang, meta, title, pathname }) {
   const { site } = useStaticQuery(
     graphql`
-      query {
+      query SEO{
         site {
           siteMetadata {
             title
