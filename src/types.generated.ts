@@ -6447,9 +6447,9 @@ export type WebPOptions = {
   quality?: Maybe<Scalars["Int"]>;
 };
 
-export type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>;
+export type MittagQueryVariables = Exact<{ [key: string]: never }>;
 
-export type Unnamed_1_Query = {
+export type MittagQuery = {
   allGraphCmsMittagsmenu: {
     nodes: Array<{
       id: string;
@@ -6461,9 +6461,9 @@ export type Unnamed_1_Query = {
   };
 };
 
-export type Unnamed_2_QueryVariables = Exact<{ [key: string]: never }>;
+export type SeoQueryVariables = Exact<{ [key: string]: never }>;
 
-export type Unnamed_2_Query = {
+export type SeoQuery = {
   site?:
     | {
         siteMetadata?:

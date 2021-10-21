@@ -1,12 +1,12 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Unnamed_1_Query } from "../types.generated";
+import { MittagQuery } from "../types.generated";
 import Title from "./Title";
 import { Col, Container, Row } from "react-bootstrap";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const Mittag = () => {
-  const data: Unnamed_1_Query = useStaticQuery(mittagsmenu_query);
+  const data: MittagQuery = useStaticQuery(mittagsmenu_query);
   console.log(data.allGraphCmsMittagsmenu.nodes);
 
   return (
@@ -35,7 +35,7 @@ const Mittag = () => {
 };
 
 export const mittagsmenu_query = graphql`
-  query Mittag{
+  query Mittag {
     allGraphCmsMittagsmenu(filter: { featured: { eq: true } }) {
       nodes {
         id
