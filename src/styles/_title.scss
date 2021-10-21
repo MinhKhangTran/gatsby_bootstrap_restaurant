@@ -1,0 +1,26 @@
+.title {
+  font-size: 2rem;
+}
+.wrapper {
+  text-align: center;
+}
+.underbar_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+}
+.underbar {
+  height: 2px;
+}
+.underbar_1 {
+  background: black;
+  width: 50px;
+  transition: all 0.3s ease-in;
+}
+.underbar_2 {
+  background: $danger;
+  width: 100px;
+}
+.wrapper:hover .underbar_1 {
+  background: $danger;
+}

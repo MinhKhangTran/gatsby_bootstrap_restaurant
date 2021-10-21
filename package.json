@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "gen": "graphql-codegen"
   },
   "dependencies": {
     "@reach/skip-nav": "^0.16.0",
@@ -32,5 +33,11 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.0",
     "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/add": "^3.1.0",
+    "@graphql-codegen/cli": "^2.2.1",
+    "@graphql-codegen/typescript": "^2.2.4",
+    "@graphql-codegen/typescript-operations": "^2.1.8"
   }
 }

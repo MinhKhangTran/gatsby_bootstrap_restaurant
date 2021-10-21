@@ -1,0 +1,10 @@
+#mittag {
+  margin-top: 3rem;
+  background: $red-100;
+  padding: 2rem 0;
+}
+@media screen and (min-width: 992px) {
+  #mittag {
+    margin-top: 5rem;
+  }
+}
