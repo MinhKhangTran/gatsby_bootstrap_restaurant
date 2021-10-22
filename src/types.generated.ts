@@ -6447,6 +6447,37 @@ export type WebPOptions = {
   quality?: Maybe<Scalars["Int"]>;
 };
 
+export type GalleryQueryVariables = Exact<{ [key: string]: never }>;
+
+export type GalleryQuery = {
+  allGraphCmsGallery: {
+    edges: Array<{
+      node: {
+        alt?: string | null | undefined;
+        id: string;
+        img?:
+          | { gatsbyImageData?: unknown | null | undefined; url: string }
+          | null
+          | undefined;
+      };
+    }>;
+  };
+};
+
+export type MenuQueryVariables = Exact<{ [key: string]: never }>;
+
+export type MenuQuery = {
+  allGraphCmsMittagsmenu: {
+    nodes: Array<{
+      id: string;
+      name?: string | null | undefined;
+      price?: number | null | undefined;
+      category?: { name?: string | null | undefined } | null | undefined;
+      img?: { gatsbyImageData?: unknown | null | undefined } | null | undefined;
+    }>;
+  };
+};
+
 export type MittagQueryVariables = Exact<{ [key: string]: never }>;
 
 export type MittagQuery = {

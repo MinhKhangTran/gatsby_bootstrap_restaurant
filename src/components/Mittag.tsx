@@ -7,21 +7,24 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const Mittag = () => {
   const data: MittagQuery = useStaticQuery(mittagsmenu_query);
-  console.log(data.allGraphCmsMittagsmenu.nodes);
 
   return (
     <section id="mittag" className="">
       <Title title="Mittagsmenü" />
       <Container>
-        <p className="lead text-center mt-3">
+        <p className="lead text-center mt-3 mb-5">
           Heute haben wir zum Mittag diese Gerichte zur Auswahl
         </p>
-        <Row>
+        <Row className="">
           {data.allGraphCmsMittagsmenu.nodes.map((menu) => {
             return (
-              <Col key={menu.id} lg={6}>
-                <GatsbyImage image={getImage(menu.img)} alt={menu.name} />
-                <div className="mittag_wrapper d-flex justify-content-between align-items-center">
+              <Col className="px-lg-5" key={menu.id} lg={6}>
+                <GatsbyImage
+                  className="rounded"
+                  image={getImage(menu.img)}
+                  alt={menu.name}
+                />
+                <div className="mittag_wrapper mt-2 mb-4 d-flex justify-content-between align-items-center">
                   <h3>{menu.name}</h3>
                   <p className="lead">{menu.price} €</p>
                 </div>

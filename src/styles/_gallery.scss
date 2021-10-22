@@ -1,0 +1,10 @@
+#gallery {
+  margin-top: 3rem;
+
+  padding: 2rem 0;
+}
+@media screen and (min-width: 992px) {
+  #gallery {
+    margin-top: 5rem;
+  }
+}

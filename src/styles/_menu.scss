@@ -1,0 +1,23 @@
+#menu {
+  margin-top: 3rem;
+
+  padding: 2rem 0;
+  .menu_cat_wrapper {
+    gap: 0.5rem;
+  }
+  .menu_category {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  #menu {
+    margin-top: 5rem;
+    .menu_cat_wrapper {
+      gap: 2rem;
+    }
+    .menu_category {
+      font-size: 2rem;
+    }
+  }
+}

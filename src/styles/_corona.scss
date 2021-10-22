@@ -1,0 +1,10 @@
+#corona {
+  margin-top: 3rem;
+  background: $red-100;
+  padding: 2rem 0;
+}
+@media screen and (min-width: 992px) {
+  #corona {
+    margin-top: 5rem;
+  }
+}
