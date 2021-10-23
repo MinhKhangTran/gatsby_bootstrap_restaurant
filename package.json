@@ -13,7 +13,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "gen": "graphql-codegen"
+    "gen": "graphql-codegen",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
   },
   "dependencies": {
     "@reach/skip-nav": "^0.16.0",
@@ -43,7 +45,12 @@
     "@graphql-codegen/cli": "^2.2.1",
     "@graphql-codegen/typescript": "^2.2.4",
     "@graphql-codegen/typescript-operations": "^2.1.8",
+    "@testing-library/cypress": "^8.0.1",
     "@types/leaflet": "^1.7.5",
-    "@types/react-helmet": "^6.1.4"
+    "@types/react-helmet": "^6.1.4",
+    "axe-core": "^4.3.3",
+    "cypress": "^8.6.0",
+    "cypress-axe": "^0.13.0",
+    "start-server-and-test": "^1.14.0"
   }
 }

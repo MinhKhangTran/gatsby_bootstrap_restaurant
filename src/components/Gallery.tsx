@@ -24,7 +24,10 @@ const Gallery = () => {
               {data.allGraphCmsGallery.edges.map((node) => {
                 return (
                   <Col key={node.node.id} className="py-2" lg={3} md={4}>
-                    <a href={node.node.img?.url}>
+                    <a
+                      href={node.node.img?.url}
+                      aria-label={`Click to see more about ${node.node.alt}`}
+                    >
                       <GatsbyImage
                         image={getImage(node.node.img)}
                         alt={node.node.alt}

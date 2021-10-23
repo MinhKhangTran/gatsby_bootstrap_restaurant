@@ -16,7 +16,7 @@ const Navigation = () => {
             <Nav.Link href="#menu">Menü</Nav.Link>
             <Nav.Link href="#gallery">Gallerie</Nav.Link>
             <Link className="nav-link" to="/about">
-              About
+              Über uns
             </Link>
           </Nav>
           <a className="btn btn-outline-danger" href="#contact">
