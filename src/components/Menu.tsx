@@ -56,7 +56,7 @@ const Menu = () => {
           })}
         </div>
 
-        <Row className="">
+        <Row className="" data-cy="menu_items">
           {items.map((menu) => {
             return (
               <Col className="px-lg-5" key={menu.id} lg={6}>

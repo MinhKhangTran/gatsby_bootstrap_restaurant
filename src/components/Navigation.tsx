@@ -9,8 +9,8 @@ const Navigation = () => {
         <Link to="/" className="navbar-brand text-danger">
           미당
         </Link>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" data-cy="nav_button" />
+        <Navbar.Collapse id="basic-navbar-nav" data-cy="nav_collapse">
           <Nav className="me-auto align-lg-items-center">
             <Nav.Link href="#hero">Home</Nav.Link>
             <Nav.Link href="#menu">Menü</Nav.Link>
