@@ -17,7 +17,7 @@ const Corona = () => {
         </p>
         <div className="corona_wrapper d-flex justify-content-center">
           <Button variant="danger" className="" onClick={handleShow}>
-            Mehr Informationen zu unsere Corona Maßnahmen
+            Unsere Corona Maßnahmen
           </Button>
         </div>
       </Container>
@@ -25,7 +25,7 @@ const Corona = () => {
         <Modal.Header closeButton>
           <Modal.Title>Unsere Corona Maßnahmen</Modal.Title>
         </Modal.Header>
-        <Modal.Body scrollable>
+        <Modal.Body>
           <ol>
             <li className="mb-3">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
@@ -76,7 +76,7 @@ const Corona = () => {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={handleClose}>
-            Close
+            Schließen
           </Button>
         </Modal.Footer>
       </Modal>

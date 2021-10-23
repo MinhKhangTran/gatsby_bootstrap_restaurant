@@ -23,10 +23,9 @@ const Gallery = () => {
             <Row className="">
               {data.allGraphCmsGallery.edges.map((node) => {
                 return (
-                  <Col className="py-2" lg={3} md={4}>
+                  <Col key={node.node.id} className="py-2" lg={3} md={4}>
                     <a href={node.node.img?.url}>
                       <GatsbyImage
-                        key={node.node.id}
                         image={getImage(node.node.img)}
                         alt={node.node.alt}
                       />
