@@ -44,7 +44,7 @@ const Menu = () => {
             return (
               <Button
                 key={index}
-                variant="transparent"
+                variant="outline-danger"
                 className="menu_category text-capitalize"
                 onClick={() => {
                   filterItems(category!);

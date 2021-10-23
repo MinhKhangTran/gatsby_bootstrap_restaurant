@@ -17,40 +17,40 @@ const Footer = () => {
             <h3 className="text-white">미당 - Midang</h3>
           </Col>
           <Col lg={2}>
+            <p className="fw-bold d-flex align-items-center text-white">
+              <FaHome className="me-2" size="1em" />
+              Adresse
+            </p>
             <ul className="list-unstyled text-white">
-              <p className="fw-bold d-flex align-items-center">
-                <FaHome className="me-2" size="1em" />
-                Adresse
-              </p>
               <li>Usastraße 25</li>
               <li>61440 Oberursel</li>
             </ul>
           </Col>
           <Col lg={2}>
+            <p className="fw-bold d-flex align-items-center text-white">
+              <FaClock className="me-2" size="1em" />
+              Öffnungszeiten
+            </p>
             <ul className="list-unstyled text-white">
-              <p className="fw-bold d-flex align-items-center">
-                <FaClock className="me-2" size="1em" />
-                Öffnungszeiten
-              </p>
               <li className="d-flex justify-content-between">
                 <p className="mb-1">Mo</p>
-                <li className="zeiten">
+                <div className="zeiten">
                   <p className="mb-1">12:00 - 14:30 Uhr</p>
                   <p className="mb-1">18:00 - 22:30 Uhr</p>
-                </li>
+                </div>
               </li>
               <li className="d-flex justify-content-between">
                 <p className="mb-1">Di</p>
-                <li className="zeiten">
+                <div className="zeiten">
                   <p className="mb-1">Ruhetag</p>
-                </li>
+                </div>
               </li>
               <li className="d-flex justify-content-between">
                 <p className="mb-1">Mi - So</p>
-                <li className="zeiten">
+                <div className="zeiten">
                   <p className="mb-1">12:00 - 14:30 Uhr</p>
                   <p className="mb-1">18:00 - 22:30 Uhr</p>
-                </li>
+                </div>
               </li>
             </ul>
           </Col>
