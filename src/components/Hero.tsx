@@ -14,6 +14,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="uhrzeit mt-5 mx-auto border border-danger border-3 p-3">
+          <p className="lead text-center fw-bold">
+            Usastraße 25, 61440 Oberursel
+          </p>
           <p className="lead">Öffnungszeiten:</p>
           <div className="lead zeile d-flex justify-content-between">
             <p>Mo</p>

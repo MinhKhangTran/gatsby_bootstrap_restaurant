@@ -56,7 +56,10 @@ const Contact = () => {
                         type="text"
                         placeholder="Vorname"
                       />
-                      <Form.Control.Feedback type="invalid">
+                      <Form.Control.Feedback
+                        type="invalid"
+                        style={{ color: "#d13241" }}
+                      >
                         Bitte geben Sie einen Vornamen an
                       </Form.Control.Feedback>
                     </FloatingLabel>
@@ -72,7 +75,10 @@ const Contact = () => {
                         type="text"
                         placeholder="Nachname"
                       />
-                      <Form.Control.Feedback type="invalid">
+                      <Form.Control.Feedback
+                        type="invalid"
+                        style={{ color: "#d13241" }}
+                      >
                         Bitte geben Sie einen Nachnamen an
                       </Form.Control.Feedback>
                     </FloatingLabel>
@@ -88,7 +94,10 @@ const Contact = () => {
                         type="email"
                         placeholder="name@beispiel.de"
                       />
-                      <Form.Control.Feedback type="invalid">
+                      <Form.Control.Feedback
+                        type="invalid"
+                        style={{ color: "#d13241" }}
+                      >
                         Bitte geben Sie eine E-Mail an
                       </Form.Control.Feedback>
                     </FloatingLabel>
@@ -101,7 +110,10 @@ const Contact = () => {
                         placeholder="Hinterlasse eine Nachricht hier"
                         style={{ height: "150px" }}
                       />
-                      <Form.Control.Feedback type="invalid">
+                      <Form.Control.Feedback
+                        type="invalid"
+                        style={{ color: "#d13241" }}
+                      >
                         Bitte geben Sie eine Nachricht ein
                       </Form.Control.Feedback>
                     </FloatingLabel>
