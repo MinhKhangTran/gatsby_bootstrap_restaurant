@@ -50,6 +50,17 @@ body {
   background-color: #fafaf9;
 }
 
+#about {
+  margin-top: 3rem;
+
+  padding: 2rem 0;
+}
+@media screen and (min-width: 992px) {
+  #about {
+    margin-top: 5rem;
+  }
+}
+
 //Scrollbar
 ::selection {
   background: $primary;
